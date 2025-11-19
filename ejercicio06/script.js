@@ -18,9 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     botonMenos.addEventListener("click", () => {
-        valor--;
-        contador.textContent = valor;
-        mensaje.textContent = "";  
+        if (valor > 0) {
+            valor--;
+            contador.textContent = valor;
+            mensaje.textContent = "";
+        } else {
+            mensaje.textContent = "El contador no puede bajar de cero";
+        }
     });
 
 });
