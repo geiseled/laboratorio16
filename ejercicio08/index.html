@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Laboratorio 16 - Ejercicio 8</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <h1>Ejercicio 8</h1>
+    <p>Validar formulario con DOM: validar que los campos nombre y correo no esten vacios. 
+        Si hay error, mostrar mensajes debajo del input usando createElement("span") con estilo rojo.</p>
+
+    <form id="formulario">
+
+        <div class="campo">
+            <label>Nombre:</label><br>
+            <input type="text" id="nombre">
+        </div>
+
+        <div class="campo">
+            <label>Correo:</label><br>
+            <input type="email" id="correo">
+        </div>
+
+        <button id="btn-enviar" type="submit">Enviar</button>
+
+    </form>
+
+</body>
+</html>
