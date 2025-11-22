@@ -14,15 +14,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // convertir cadena JSON a objeto JS
     let persona = JSON.parse(personaJSON);
-
     // modificar un valor, por ejemplo la edad
     persona.edad = 26;
-
     // convertir nuevamente a JSON actualizado
     const jsonActualizado = JSON.stringify(persona, null, 4);
-
     // mostrar en pantalla
     document.getElementById("resultado").textContent = jsonActualizado;
-
 });
 

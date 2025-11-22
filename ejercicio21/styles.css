@@ -1,0 +1,29 @@
+/* estilo del enunciado */
+#enunciado {
+    background-color: #dfdfdf;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* formato de la lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* estilo base de cada tarea */
+.tarea-item {
+    padding: 8px;
+    margin-bottom: 6px;
+    border: 1px solid #ccc;
+}
+
+/* tarea completada en verde */
+.completada {
+    background-color: lightgreen;
+}
+
+/* tarea pendiente */
+.pendiente {
+    background-color: #f3f3f3;
+}
