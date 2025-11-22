@@ -5,15 +5,10 @@
     margin-bottom: 20px;
 }
 
-/* estilo de tabla */
-table {
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-td, th {
-    border: 1px solid #000000;
-    padding: 8px;
+/* estilo para mostrar el JSON */
+#resultado {
     background-color: lightyellow;
+    padding: 10px;
+    border: 1px solid #000;
+    white-space: pre-wrap;
 }
-
