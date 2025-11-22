@@ -5,11 +5,10 @@
     margin-bottom: 20px;
 }
 
-/* estilo de la lista ul generada */
-#lista-productos li {
-    padding: 6px;
-    border: 1px solid #000000;
-    margin-bottom: 5px;
+/* estilo del resultado */
+#resultado {
     background-color: lightyellow;
+    padding: 10px;
+    border: 1px solid #a3a3a3;
     width: fit-content;
 }
