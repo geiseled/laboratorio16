@@ -1,0 +1,41 @@
+/* estilo del enunciado */
+#enunciado {
+    background-color: #dfdfdf;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* estilo de botones */
+#btn-mover,
+#btn-reiniciar {
+    padding: 8px 15px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: lightblue;
+}
+
+/* estilo del cuadrado */
+#cuadro {
+    width: 80px;
+    height: 80px;
+    background-color: lightcoral;
+    margin-top: 30px;
+    position: relative;
+}
+
+/* animacion de movimiento */
+.mover {
+    animation: moverAnim 2s forwards; /* forwards: la animacion se queda en el estado final */
+}
+
+/* definicion de la animacion */
+@keyframes moverAnim {
+    from {
+        left: 0;
+    }
+    to {
+        left: 300px;
+    }
+}
+
