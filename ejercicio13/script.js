@@ -2,7 +2,6 @@
 // Laboratorio 16 - Ejercicio 13
 
 document.addEventListener("DOMContentLoaded", () => {
-
     const form = document.getElementById("form-usuario");
     const inputNombre = document.getElementById("nombre");
     const inputEdad = document.getElementById("edad");
@@ -10,35 +9,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let modoEdicion = false;
     let indiceEdicion = null;
-
     // guardar usuario o actualizar si esta en edicion
     form.addEventListener("submit", (event) => {
         event.preventDefault();
-
         const nombre = inputNombre.value.trim();
         const edad = inputEdad.value.trim();
-
         // evitar campos vacios
         if (nombre === "" || edad === "") {
             alert("Complete todos los campos");
             return;
         }
-
         if (!modoEdicion) {
             agregarFila(nombre, edad);
         } else {
             actualizarFila(nombre, edad);
         }
-
         form.reset();
         modoEdicion = false;
         indiceEdicion = null;
     });
-
     // agregar nueva fila a la tabla
     function agregarFila(nombre, edad) {
         const fila = document.createElement("tr");
-
         fila.innerHTML = `
             <td>${nombre}</td>
             <td>${edad}</td>
@@ -47,7 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 <button class="btn-eliminar" data-accion="eliminar">Eliminar</button>
             </td>
         `;
-
         tablaBody.appendChild(fila);
     }
 
@@ -83,7 +74,6 @@ document.addEventListener("DOMContentLoaded", () => {
             const filas = Array.from(tablaBody.children);
             indiceEdicion = filas.indexOf(fila);
         }
-
     });
-
 });
+
