@@ -1,0 +1,15 @@
+/* estilo del enunciado */
+#enunciado {
+    background-color: #dfdfdf;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* estilo de la lista ul generada */
+#lista-productos li {
+    padding: 6px;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+    background-color: lightyellow;
+    width: fit-content;
+}
