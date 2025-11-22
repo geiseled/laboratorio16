@@ -1,0 +1,32 @@
+/* estilo del enunciado */
+#enunciado {
+    background-color: #dfdfdf;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* estilo de la tabla */
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px 12px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.btn-editar {
+    background-color: lightgreen;
+}
+
+.btn-eliminar {
+    background-color: lightcoral;
+}
+
