@@ -1,0 +1,20 @@
+/* estilo del enunciado */
+#enunciado {
+    background-color: #dfdfdf;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* estilo de la lista */
+#lista li {
+    padding: 8px;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+/* efecto al pasar el mouse */
+#lista li:hover {
+    background-color: lightyellow;
+}
