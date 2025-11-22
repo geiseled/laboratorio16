@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 16 - Ejercicio 22</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <h1>Ejercicio 22</h1>
+
+    <p id="enunciado">
+        Crea un formulario con nombre, edad y pais. Al enviar, guarda los datos como JSON en localStorage.
+        Si el usuario recarga la pagina, muestra el perfil guardado en pantalla.
+    </p>
+    <form id="form-perfil">
+        <label>Nombre:</label><br>
+        <input type="text" id="nombre"><br><br>
+        <label>Edad:</label><br>
+        <input type="number" id="edad"><br><br>
+        <label>Pais:</label><br>
+        <input type="text" id="pais"><br><br>
+        <button type="submit">Guardar perfil</button>
+    </form>
+    <h2>Perfil guardado</h2>
+    <div id="perfil"></div>
+</body>
+</html>

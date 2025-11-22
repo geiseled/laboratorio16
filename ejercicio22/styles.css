@@ -1,0 +1,23 @@
+/* estilo del enunciado */
+#enunciado {
+    background-color: #dfdfdf;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* estilo del perfil mostrado */
+#perfil {
+    background-color: lightyellow;
+    padding: 10px;
+    border: 1px solid #b1b1b1;
+    width: 250px;
+    margin-top: 15px;
+}
+
+/* estilo del boton */
+button {
+    padding: 8px 15px;
+    background-color: lightblue;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
