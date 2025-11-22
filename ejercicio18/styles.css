@@ -1,0 +1,18 @@
+/* estilo del enunciado */
+#enunciado {
+    background-color: #dfdfdf;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* estilo simple de tabla */
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px;
+    background-color: lightyellow;
+}
