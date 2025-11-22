@@ -4,3 +4,11 @@
     padding: 10px;
     margin-bottom: 20px;
 }
+
+/* estilo del parrafo donde se muestra el valor JSON */
+#resultado {
+    background-color: lightyellow;
+    padding: 10px;
+    border: 1px solid #aaa;
+    width: fit-content;
+}
